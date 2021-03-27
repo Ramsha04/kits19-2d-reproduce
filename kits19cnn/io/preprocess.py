@@ -24,7 +24,7 @@ class Preprocessor(object):
             * segmentation.npy (if with_masks)
     """
     def __init__(self, in_dir, out_dir, cases=None, kits_json_path=None,
-                 bbox_json_path=None, clip_values=[-30, 300], with_mask=True,
+                 bbox_json_path=None, clip_values=[-30, 300], with_mask=False,
                  fg_classes=[0, 1, 2], resize_xy_shape=(256, 256)):
         """
         Attributes:
