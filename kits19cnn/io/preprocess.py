@@ -25,7 +25,7 @@ class Preprocessor(object):
     """
     def __init__(self, in_dir, out_dir, cases=None, kits_json_path=None,
                  bbox_json_path=None, clip_values=[-30, 300], with_mask=False,
-                 fg_classes=[0, 1, 2], resize_xy_shape=(256, 256)):
+                 fg_classes=None, resize_xy_shape=(256, 256)):
         """
         Attributes:
             in_dir (str): directory with the input data. Should be the
