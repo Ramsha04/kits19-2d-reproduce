@@ -1,5 +1,8 @@
 from catalyst.dl import SupervisedRunner
 
+import sys
+sys.path.append(".")
+
 from kits19cnn.experiments import TrainSegExperiment2D, seed_everything
 from kits19cnn.visualize import plot_metrics, save_figs
 
